@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--
+  Your card on the course wall. It is shown at exactly 360 × 240 px.
+  Plain HTML + CSS only: scripts are blocked on the wall.
+  Change anything you like inside this file.
+-->
+<style>
+  html, body { margin: 0; height: 100%; }
+  body {
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 24px; box-sizing: border-box;
+    background: #ffffff; color: #161412;
+    font: 16px/1.4 system-ui, sans-serif;
+  }
+  .name { margin: 0; font-size: 28px; font-weight: 600; letter-spacing: -.01em; }
+  .role { margin: 4px 0 0; color: #6e6862; }
+  .quote { margin: 0; font-size: 15px; }
+</style>
+</head>
+<body>
+  <div>
+    <p class="name">Your Name</p>
+    <p class="role">Team · Company</p>
+  </div>
+  <p class="quote">First thing I'll use Claude Code for at work: …</p>
+</body>
+</html>

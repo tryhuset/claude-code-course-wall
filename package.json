@@ -1,0 +1,10 @@
+{
+  "name": "claude-code-course-wall",
+  "private": true,
+  "type": "module",
+  "description": "Practice repo for the TRY Claude Code course: change your card, verify it in the browser, open a PR with screenshots.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

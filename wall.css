@@ -1,0 +1,16 @@
+:root { --bg: #f4f2ee; --fg: #161412; --muted: #6e6862; --line: #dcd5cc; --accent: #ff4f00; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141210; --fg: #f1eee9; --muted: #a49b92; --line: #2e2a26; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+header { max-width: 1200px; margin: 0 auto; padding: 56px 24px 24px; }
+.eyebrow { margin: 0; font: 600 13px/1 ui-monospace, monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+h1 { margin: 12px 0 8px; font-size: clamp(32px, 5vw, 52px); letter-spacing: -.02em; }
+.lede { margin: 0; color: var(--muted); }
+code { font-family: ui-monospace, monospace; font-size: .92em; }
+#wall { max-width: 1200px; margin: 0 auto; padding: 24px 24px 80px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 20px; }
+figure { margin: 0; }
+/* Cards are fixed-size (360 × 240) so every screenshot is comparable. */
+iframe { display: block; width: 360px; max-width: 100%; height: 240px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+figcaption { margin-top: 8px; font: 13px/1.4 ui-monospace, monospace; color: var(--muted); }
+.empty { color: var(--muted); }

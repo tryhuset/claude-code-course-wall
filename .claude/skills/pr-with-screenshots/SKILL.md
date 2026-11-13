@@ -9,6 +9,13 @@ A reviewer should be able to see a visual change without checking out the branch
 You take the screenshots yourself, look at them, and fix anything that looks wrong
 before you open the PR.
 
+## 0. Check the tools
+
+- `agent-browser --version`. If it fails, install it: `npm i -g agent-browser && agent-browser install`
+  (the second command downloads Chrome once). The Agent Browser *skill* from Block 2 is only
+  instructions; the CLI must also be installed.
+- `gh auth status`. If not logged in, stop and ask the participant to run `gh auth login`.
+
 ## 1. Find out who and where
 
 - GitHub username: `gh api user --jq .login`. The participant's folder is

@@ -13,8 +13,9 @@ fixes what's wrong, then hands the reviewer pictures instead of a wall of CSS di
 
 - A GitHub account, with [`gh`](https://cli.github.com/) installed and logged in (`gh auth login`).
 - Node.js 20 or newer.
-- Agent Browser: `npm i -g agent-browser && agent-browser install`
-  (already done if you followed the Block 2 exercise).
+- The Agent Browser CLI: `npm i -g agent-browser && agent-browser install`.
+  The Block 2 skill only teaches Claude how to use it; the CLI is a separate install.
+  (If it's missing, the `pr-with-screenshots` skill tells Claude to install it.)
 
 > On a locked-down work laptop, check that you can reach github.com and push to a
 > personal fork. If not, pair with someone who can.

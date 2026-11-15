@@ -24,8 +24,8 @@ fixes what's wrong, then hands the reviewer pictures instead of a wall of CSS di
 
 | You have | Get the repo | You end with |
 | --- | --- | --- |
-| GitHub account + `gh` | `gh repo fork <ORG>/claude-code-course-wall --clone` | a pull request |
-| github.com, but no account | `git clone https://github.com/<ORG>/claude-code-course-wall` | a local review page |
+| GitHub account + `gh` | `gh repo fork tryhuset/claude-code-course-wall --clone` | a pull request |
+| github.com, but no account | `git clone https://github.com/tryhuset/claude-code-course-wall` | a local review page |
 | github.com blocked | in Claude Code: `go to try.no/cc/wall and follow the instructions` | a local review page |
 
 ## The exercise (about 15 minutes)
@@ -78,8 +78,8 @@ participants/
 
 ## For instructors
 
-- Create the repo as **public** under the course org, enable Pages
-  (Settings → Pages → Source: GitHub Actions), and replace `<ORG>` above.
+- The repo is **public** at `tryhuset/claude-code-course-wall`. Enable Pages
+  (Settings → Pages → Source: GitHub Actions).
 - Review on the projector at the end of the block: 2–3 real PRs, plus at least one
   local `review.html` from someone without GitHub, to show it's the same habit. Merge
   the PRs and the wall updates live.
